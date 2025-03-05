@@ -40,11 +40,12 @@ This project is a **line-following robot** that uses **IR sensors** to detect an
   - Install **ESP32 by Espressif Systems** from Board Manager
 
 ### **2️⃣ Required Libraries**
-Before compiling, install the following libraries:
-```bash
-WiFi.h
-ArduinoOTA.h
-These are pre-installed with the ESP32 core.
+Before compiling, ensure the following libraries are available in Arduino IDE:
+
+- `WiFi.h` (for Wi-Fi connectivity)
+- `ArduinoOTA.h` (for Over-the-Air updates)
+
+These libraries are **pre-installed** with the ESP32 board package, so no additional installation is needed.
 
 3️⃣ Upload Code
 Connect the ESP32 via USB.
